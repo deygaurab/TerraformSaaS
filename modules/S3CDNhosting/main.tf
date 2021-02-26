@@ -1,4 +1,4 @@
-#----02_S3hosting/main.tf----
+#----S3CDNhosting/main.tf----
 
 resource "aws_s3_bucket" "tf_s3_host_bucket" {
   bucket = "${var.website_bucket_name}"

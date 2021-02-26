@@ -1,4 +1,4 @@
-#----41_ECSServiceRole/main.tf-----
+#----ECSServiceRole/main.tf-----
 
 resource "aws_iam_role" "tf_ecs_service_role" {
     name                = "tf_ecs_service_role"

@@ -1,3 +1,3 @@
-#----20_Flowlogs/variables.tf----
+#----VPCFlowlogs/variables.tf----
 
 variable "vpc_id" {}

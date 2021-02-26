@@ -1,4 +1,4 @@
-#----03_Cldfrontdistro/main.tf----
+#----CDN/main.tf----
 
 resource "aws_cloudfront_distribution" "tf_s3_distribution" {
   origin {

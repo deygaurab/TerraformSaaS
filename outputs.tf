@@ -7,7 +7,7 @@ output "Cloudfront-distrubution-domain" {
   value = "${module.Cldfrntdistro.tf_Cld_dist_domain_name}"
 }
 output "Cloudfront-distrubution-domain-Status" {
-  value = "${module.Cldfrntdistro.tf_Cld_dist_status}"
+  value = "${module.CDN.tf_Cld_dist_status}"
 }
 output "API-gateway-ID" {
   value = "${module.Apigateway.tf_api_gateway_id}"

@@ -1,4 +1,4 @@
-#----20_Flowlogs/main.tf----
+#----SecurityGroup/main.tf----
 
 resource "aws_security_group" "tf_public_sg" {
   name         = "tf_public_sg"

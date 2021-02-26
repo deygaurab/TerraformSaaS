@@ -1,4 +1,4 @@
-#----20_Flowlogs/main.tf----
+#----VPCFlowlogs/main.tf----
 
 resource "aws_flow_log" "tf_vpc_flowlogs" {
   iam_role_arn    = "${aws_iam_role.tf_IAM_flowlogs.arn}"

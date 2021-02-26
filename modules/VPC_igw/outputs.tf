@@ -1,4 +1,4 @@
-#----10_VPC_igw/outputs.tf----
+#----VPC_igw/outputs.tf----
 
 output "vpc_id" {
   value = "${aws_vpc.tf_vpc.id}"

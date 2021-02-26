@@ -1,4 +1,4 @@
-#----43_ECSALBalancer/main.tf-----
+#----ECSALB/main.tf-----
 
 # Create application load balancer and attach it to private Subnet.
 resource "aws_alb" "tf_ecs_load_balancer" {

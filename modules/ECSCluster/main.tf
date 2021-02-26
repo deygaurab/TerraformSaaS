@@ -1,4 +1,4 @@
-#----40_ECSCluster/main.tf-----
+#----ECSCluster/main.tf-----
 
 # create the cluster
 resource "aws_ecs_cluster" "tf_ecs_cluster" {

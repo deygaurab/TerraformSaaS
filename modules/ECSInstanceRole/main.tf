@@ -1,4 +1,4 @@
-#----42_ECSInstancerole/main.tf-----
+#----ECSInstancerole/main.tf-----
 
 resource "aws_iam_role" "tf_ecs_instance_role" {
     name                = "tf_ecs_instance_role"

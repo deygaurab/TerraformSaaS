@@ -1,4 +1,4 @@
-#----10_VPC_igw/main.tf----
+#---VPC_igw/main.tf----
 
 # create AWS VPC with specific CIDR
 resource "aws_vpc" "tf_vpc" {

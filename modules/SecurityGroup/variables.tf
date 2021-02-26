@@ -1,3 +1,3 @@
-#----31_SecurityGroup1/variables.tf----
+#----SecurityGroup/variables.tf----
 
 variable "vpc_id" {}
